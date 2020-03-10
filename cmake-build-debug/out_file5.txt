@@ -1,0 +1,86 @@
+Add 10 False
+Add 5 False
+Add 15 False
+Add 3 False
+Add 13 False
+Add 1 False
+Add 11 False
+Add 2 False
+Add 12 False
+Add 7 False
+Add 17 False
+Add 9 False
+Add 19 False
+Add 8 False
+Add 18 False
+Add 0 False
+Add 20 False
+Add 4 False
+Add 14 False
+Add 6 False
+Add 16 False
+PrintBST
+BST is empty
+Remove 10 False
+PrintBST
+BST is empty
+Remove 9 False
+PrintBST
+BST is empty
+Remove 8 False
+PrintBST
+BST is empty
+Remove 7 False
+PrintBST
+BST is empty
+Remove 6 False
+PrintBST
+BST is empty
+Remove 5 False
+PrintBST
+BST is empty
+Remove 4 False
+PrintBST
+BST is empty
+Remove 3 False
+PrintBST
+BST is empty
+Remove 2 False
+PrintBST
+BST is empty
+Remove 1 False
+PrintBST
+BST is empty
+Remove 0 False
+PrintBST
+BST is empty
+Remove 15 False
+PrintBST
+BST is empty
+Remove 14 False
+PrintBST
+BST is empty
+Remove 13 False
+PrintBST
+BST is empty
+Remove 12 False
+PrintBST
+BST is empty
+Remove 11 False
+PrintBST
+BST is empty
+Remove 17 False
+PrintBST
+BST is empty
+Remove 16 False
+PrintBST
+BST is empty
+Remove 19 False
+PrintBST
+BST is empty
+Remove 18 False
+PrintBST
+BST is empty
+Remove 20 False
+PrintBST
+BST is empty

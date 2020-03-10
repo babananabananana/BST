@@ -1,0 +1,38 @@
+Add 1 False
+Add 2 False
+Add 3 False
+PrintBST
+BST is empty
+Add 4 False
+Add 5 False
+Add 6 False
+Add 10 False
+PrintBST
+BST is empty
+Add 8 False
+Add 7 False
+Add 9 False
+PrintBST
+BST is empty
+Remove 11 False
+Remove 10 False
+Remove 9 False
+Remove 6 False
+PrintBST
+BST is empty
+Remove 8 False
+Remove 7 False
+PrintBST
+BST is empty
+Remove 5 False
+Remove 4 False
+Remove 3 False
+Remove 2 False
+PrintBST
+BST is empty
+Remove 1 False
+PrintBST
+BST is empty
+Clear
+PrintBST
+BST is empty

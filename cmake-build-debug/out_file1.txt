@@ -2,3 +2,16 @@ Add 1 False
 Add 2 False
 Add 3 False
 Add 1 False
+PrintBST
+BST is empty
+Add 4 False
+Add 5 False
+Add 6 False
+Add 10 False
+PrintBST
+BST is empty
+Add 8 False
+Add 7 False
+Add 9 False
+PrintBST
+BST is empty

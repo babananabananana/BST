@@ -4,6 +4,7 @@
 
 #include "NodeInterface.h"
 #include "BSTInterface.h"
+#include "Node.h"
 
 using namespace std;
 

@@ -1,7 +1,6 @@
 #include "BST.h"
 #include "Node.h"
 #include <iostream>
-#include "Node.cpp"
 using namespace std;
 
 BST::BST() {

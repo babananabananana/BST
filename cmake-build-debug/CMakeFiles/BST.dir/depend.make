@@ -4,7 +4,6 @@
 CMakeFiles/BST.dir/BST.cpp.o: ../BST.cpp
 CMakeFiles/BST.dir/BST.cpp.o: ../BST.h
 CMakeFiles/BST.dir/BST.cpp.o: ../BSTInterface.h
-CMakeFiles/BST.dir/BST.cpp.o: ../Node.cpp
 CMakeFiles/BST.dir/BST.cpp.o: ../Node.h
 CMakeFiles/BST.dir/BST.cpp.o: ../NodeInterface.h
 
@@ -12,5 +11,9 @@ CMakeFiles/BST.dir/Node.cpp.o: ../Node.cpp
 CMakeFiles/BST.dir/Node.cpp.o: ../Node.h
 CMakeFiles/BST.dir/Node.cpp.o: ../NodeInterface.h
 
+CMakeFiles/BST.dir/main.cpp.o: ../BST.h
+CMakeFiles/BST.dir/main.cpp.o: ../BSTInterface.h
+CMakeFiles/BST.dir/main.cpp.o: ../Node.h
+CMakeFiles/BST.dir/main.cpp.o: ../NodeInterface.h
 CMakeFiles/BST.dir/main.cpp.o: ../main.cpp
 
