@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ethanlow/CLionProjects/BST/BST.cpp
+BST.h
+/Users/ethanlow/CLionProjects/BST/BST.h
+Node.h
+/Users/ethanlow/CLionProjects/BST/Node.h
+iostream
+-
+Node.cpp
+/Users/ethanlow/CLionProjects/BST/Node.cpp
+
+/Users/ethanlow/CLionProjects/BST/BST.h
+NodeInterface.h
+/Users/ethanlow/CLionProjects/BST/NodeInterface.h
+BSTInterface.h
+/Users/ethanlow/CLionProjects/BST/BSTInterface.h
+
+/Users/ethanlow/CLionProjects/BST/BSTInterface.h
+NodeInterface.h
+/Users/ethanlow/CLionProjects/BST/NodeInterface.h
+
+/Users/ethanlow/CLionProjects/BST/Node.cpp
+Node.h
+/Users/ethanlow/CLionProjects/BST/Node.h
+iostream
+-
+
+/Users/ethanlow/CLionProjects/BST/Node.h
+iostream
+-
+NodeInterface.h
+/Users/ethanlow/CLionProjects/BST/NodeInterface.h
+
+/Users/ethanlow/CLionProjects/BST/NodeInterface.h
+iostream
+-
+
