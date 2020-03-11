@@ -6,33 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/Users/low/CLionProjects/BST/BST.cpp
+/Users/ethanlow/CLionProjects/BST/BST.cpp
 BST.h
-/Users/low/CLionProjects/BST/BST.h
+/Users/ethanlow/CLionProjects/BST/BST.h
 Node.h
-/Users/low/CLionProjects/BST/Node.h
+/Users/ethanlow/CLionProjects/BST/Node.h
 iostream
 -
 
-/Users/low/CLionProjects/BST/BST.h
+/Users/ethanlow/CLionProjects/BST/BST.h
 NodeInterface.h
-/Users/low/CLionProjects/BST/NodeInterface.h
+/Users/ethanlow/CLionProjects/BST/NodeInterface.h
 BSTInterface.h
-/Users/low/CLionProjects/BST/BSTInterface.h
-Node.h
-/Users/low/CLionProjects/BST/Node.h
+/Users/ethanlow/CLionProjects/BST/BSTInterface.h
 
-/Users/low/CLionProjects/BST/BSTInterface.h
+/Users/ethanlow/CLionProjects/BST/BSTInterface.h
 NodeInterface.h
-/Users/low/CLionProjects/BST/NodeInterface.h
+/Users/ethanlow/CLionProjects/BST/NodeInterface.h
 
-/Users/low/CLionProjects/BST/Node.h
+/Users/ethanlow/CLionProjects/BST/Node.h
 iostream
 -
 NodeInterface.h
-/Users/low/CLionProjects/BST/NodeInterface.h
+/Users/ethanlow/CLionProjects/BST/NodeInterface.h
 
-/Users/low/CLionProjects/BST/NodeInterface.h
+/Users/ethanlow/CLionProjects/BST/NodeInterface.h
 iostream
 -
+
+/Users/ethanlow/CLionProjects/BST/main.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+queue
+-
+BST.h
+/Users/ethanlow/CLionProjects/BST/BST.h
 
