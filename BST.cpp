@@ -111,16 +111,17 @@ void BST::clear() {
 }
 
 void BST::clear_wrapped(Node* cur){
-    if (cur->getRightChild()){
-        return clear_wrapped(cur->getRightChild());
-    }
-    if(cur->getLeftChild()){
-        return clear_wrapped(cur->getLeftChild());
-    }
-    else {
-        delete[] cur; //If i remove this it works, but it doesn't remove things.
+    if (cur == nullptr){
         return;
     }
+    if (cur->getRightChild()){
+        clear_wrapped(cur->getRightChild());
+    }
+    if(cur->getLeftChild()){
+        clear_wrapped(cur->getLeftChild());
+    }
+        delete[] cur; //If i remove this it works, but it doesn't remove things.
+        return;
 }
 
 
