@@ -54,5 +54,5 @@ private:
 
     static bool add_wrapped(Node *cur, int data);
 
-    void clear_wrapped(Node* cur);
+    static void clear_wrapped(Node* cur);
 };

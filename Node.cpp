@@ -41,11 +41,3 @@ Node * Node::getRightChild() const{
 void Node::setData(int data) {
     this->data = data;
 }
-
-Node *Node::getRoot() const {
-    return root;
-}
-
-void Node::setRoot(Node *root) {
-    Node::root = root;
-}

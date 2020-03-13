@@ -13,7 +13,7 @@ private:
     Node *left;
 //    Node(int myNode) : data(myNode){};
     int data;
-    Node *root;
+
 public:
 
     Node *getRoot() const;

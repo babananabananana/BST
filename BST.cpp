@@ -26,17 +26,14 @@ NodeInterface *BST::getRootNode() const {
 }*/
 
 bool BST::add_wrapped(Node* cur, int data){
-    if (cur == nullptr) {
-        cur = new Node(data);
-        return true;
-    } else if (cur->getData() == data) {
+    if (cur->getData() == data) {
         return false;
-    } else if (cur->getData() > data){
+    } else if (cur->getData() < data){
         if (cur->getRightChild() == nullptr) {
             cur->setRight(new Node(data));
             return true;
         } else return add_wrapped(cur->getRightChild(), data);
-    } else if (cur->getData() < data){
+    } else if (cur->getData() > data){
         if(cur->getLeftChild() == nullptr){
             cur->setLeft(new Node(data));
             return true;
@@ -45,14 +42,6 @@ bool BST::add_wrapped(Node* cur, int data){
 }
 
 bool BST::add(int data) {
-    /* Node* toAdd{};
-     toAdd->setData(data);
-
-     if (getRootNode() == nullptr) {
-         root = toAdd;
-         return true;
-     }
-     */
     if (root == nullptr){
         root = new Node(data);
         return true;
@@ -103,25 +92,24 @@ bool BST::remove(int data) {
 }
 
 void BST::clear() {
-    if (root == nullptr){
-        return;
-    }
-    Node* cur = root;
-    return clear_wrapped(cur);
+//    if (root == nullptr){
+//        return;
+//    }
+    clear_wrapped(root);
+    root = nullptr;
 }
 
 void BST::clear_wrapped(Node* cur){
     if (cur == nullptr){
         return;
     }
-    if (cur->getRightChild()){
+//    if (cur->getRightChild()){
         clear_wrapped(cur->getRightChild());
-    }
-    if(cur->getLeftChild()){
+//    }
+//    if(cur->getLeftChild()){
         clear_wrapped(cur->getLeftChild());
-    }
-        delete[] cur; //If i remove this it works, but it doesn't remove things.
-        return;
+//    }
+    delete (cur); //If i remove this it works, but it doesn't remove things.
 }
 
 
