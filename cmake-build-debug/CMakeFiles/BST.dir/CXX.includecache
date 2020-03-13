@@ -19,6 +19,8 @@ NodeInterface.h
 /Users/ethanlow/CLionProjects/BST/NodeInterface.h
 BSTInterface.h
 /Users/ethanlow/CLionProjects/BST/BSTInterface.h
+Node.h
+/Users/ethanlow/CLionProjects/BST/Node.h
 
 /Users/ethanlow/CLionProjects/BST/BSTInterface.h
 NodeInterface.h
@@ -33,16 +35,4 @@ NodeInterface.h
 /Users/ethanlow/CLionProjects/BST/NodeInterface.h
 iostream
 -
-
-/Users/ethanlow/CLionProjects/BST/main.cpp
-iostream
--
-fstream
--
-sstream
--
-queue
--
-BST.h
-/Users/ethanlow/CLionProjects/BST/BST.h
 

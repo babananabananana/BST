@@ -1,3 +1,4 @@
+#pragma once
 #ifndef NODE_H
 #define NODE_H
 
@@ -6,17 +7,23 @@
 
 class Node : public NodeInterface {
 
-public:
-    int data;
-    Node* right;
-    Node* left;
-    Node* root;
+private:
 
-    Node() {
-        right = nullptr;
-        left = nullptr;
-        data = 0;
-    }
+    Node *right;
+    Node *left;
+//    Node(int myNode) : data(myNode){};
+    int data;
+    Node *root;
+public:
+
+    Node *getRoot() const;
+
+    void setRoot(Node *root);
+
+    Node(int newData);
+
+    Node();
+
     ~Node();
 
     /*
@@ -24,23 +31,28 @@ public:
     *
     * @return the data that is stored in this node.
     */
-    int getData();
+    int getData() const override;
 
     /*
     * Returns the left child of this node or null if it doesn't have one.
     *
     * @return the left child of this node or null if it doesn't have one.
     */
-    Node* getLeftChild();
+    Node* getLeftChild() const override;
 
     /*
     * Returns the right child of this node or null if it doesn't have one.
     *
     * @return the right child of this node or null if it doesn't have one.
     */
-    Node* getRightChild();
+    Node* getRightChild() const override;
 
-private:
+    void setData(int data);
+
+    void setRight(Node *right);
+
+    void setLeft(Node *left);
+
 };
 
 #endif // !NODE_H

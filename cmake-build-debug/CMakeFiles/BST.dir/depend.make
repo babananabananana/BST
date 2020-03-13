@@ -13,6 +13,7 @@ CMakeFiles/BST.dir/Node.cpp.o: ../NodeInterface.h
 
 CMakeFiles/BST.dir/main.cpp.o: ../BST.h
 CMakeFiles/BST.dir/main.cpp.o: ../BSTInterface.h
+CMakeFiles/BST.dir/main.cpp.o: ../Node.h
 CMakeFiles/BST.dir/main.cpp.o: ../NodeInterface.h
 CMakeFiles/BST.dir/main.cpp.o: ../main.cpp
 

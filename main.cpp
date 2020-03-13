@@ -19,6 +19,9 @@ namespace ta {
 }
 
 
+
+
+
 int main() {
 
     std::ifstream ifs; // create the stream to read in from the files
@@ -53,6 +56,10 @@ int main() {
     std::cout << "end" << std::endl; // indicate that the program has successfuly executed all instructions
     return 0;
 }
+
+
+
+
 
 
 //a function that takes a BST and returns a level-order string representation of the BST
@@ -96,8 +103,6 @@ void parse_instruction(std::string temp, std::ofstream &ofs, BST* aptr) {
         std::cout << "Invalid command.  Do you have the correct input file?" << std::endl;
     }
 }
-
-
 //a function that takes a BST and returns a level-order string representation of the BST
 //returns a string representation of the nodes in level order
 string BSTtoString(BST* bst) {
@@ -131,10 +136,6 @@ string BSTtoString(BST* bst) {
 
     return nodeReader_ss.str();
 }
-
-
-
-
 
 // Version of getline which does not preserve end of line characters
 namespace ta {

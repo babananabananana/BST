@@ -7,8 +7,8 @@
 class NodeInterface {
 
 public:
-	NodeInterface() {}
-	virtual ~NodeInterface() {}
+	NodeInterface() {};
+	virtual ~NodeInterface() {};
 
 	/*
 	* Returns the data that is stored in this node

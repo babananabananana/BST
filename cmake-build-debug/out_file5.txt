@@ -1,86 +1,196 @@
-Add 10 False
-Add 5 False
-Add 15 False
-Add 3 False
-Add 13 False
-Add 1 False
-Add 11 False
-Add 2 False
-Add 12 False
-Add 7 False
-Add 17 False
-Add 9 False
-Add 19 False
-Add 8 False
-Add 18 False
-Add 0 False
-Add 20 False
-Add 4 False
-Add 14 False
-Add 6 False
-Add 16 False
+Add 10 True
+Add 5 True
+Add 15 True
+Add 3 True
+Add 13 True
+Add 1 True
+Add 11 True
+Add 2 True
+Add 12 True
+Add 7 True
+Add 17 True
+Add 9 True
+Add 19 True
+Add 8 True
+Add 18 True
+Add 0 True
+Add 20 True
+Add 4 True
+Add 14 True
+Add 6 True
+Add 16 True
 PrintBST
-BST is empty
-Remove 10 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 10 True
 PrintBST
-BST is empty
-Remove 9 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 9 True
 PrintBST
-BST is empty
-Remove 8 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 8 True
 PrintBST
-BST is empty
-Remove 7 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 7 True
 PrintBST
-BST is empty
-Remove 6 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 6 True
 PrintBST
-BST is empty
-Remove 5 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 5 True
 PrintBST
-BST is empty
-Remove 4 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 4 True
 PrintBST
-BST is empty
-Remove 3 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 3 True
 PrintBST
-BST is empty
-Remove 2 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 2 True
 PrintBST
-BST is empty
-Remove 1 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 1 True
 PrintBST
-BST is empty
-Remove 0 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 0 True
 PrintBST
-BST is empty
-Remove 15 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 15 True
 PrintBST
-BST is empty
-Remove 14 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 14 True
 PrintBST
-BST is empty
-Remove 13 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 13 True
 PrintBST
-BST is empty
-Remove 12 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 12 True
 PrintBST
-BST is empty
-Remove 11 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 11 True
 PrintBST
-BST is empty
-Remove 17 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 17 True
 PrintBST
-BST is empty
-Remove 16 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 16 True
 PrintBST
-BST is empty
-Remove 19 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 19 True
 PrintBST
-BST is empty
-Remove 18 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 18 True
 PrintBST
-BST is empty
-Remove 20 False
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
+Remove 20 True
 PrintBST
-BST is empty
+0:  10 
+1:  15 5 
+2:  17 13 7 3 
+3:  19 16 14 11 9 6 4 1 
+4:  20 18 12 8 2 0 
+
